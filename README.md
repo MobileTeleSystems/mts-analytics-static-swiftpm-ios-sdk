@@ -1,0 +1,1 @@
+# mts-analytics-static-swiftpm-ios-sdk
