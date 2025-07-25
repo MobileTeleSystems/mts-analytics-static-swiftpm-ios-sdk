@@ -14,7 +14,7 @@
 - [RemoteConfig](#goto_remote_config)
 - [Perfomance](#goto_perfomance)
 
-### Актуальная версия MTAnalytics - 5.1.4
+### Актуальная версия MTAnalytics - 5.2.0
 
 ## Требования для установки SDK
 
@@ -35,7 +35,7 @@ https://github.com/MobileTeleSystems/mts-analytics-swiftpm-ios-sdk/
 ### Cocoapods
 1. Чтобы добавить библиотеку MTAnalytics в проект, через CocoaPods добавьте в Podfile:
 ```ruby
-pod 'MTAnalytics',  '~> 5.1.4'
+pod 'MTAnalytics',  '~> 5.2.0'
 ```
 
 2. Устанавливаем ссылку на библиотеку MTAnalytics в Podfile:
@@ -643,6 +643,14 @@ if let welcomeMessage = remoteConfig.configValue("welcome_message")?.stringValue
 }
 ```
 
+Так же можно получить весь активный конфиг с помощью `allValues`
+
+```swift
+
+let allValues = remoteConfig.allValues
+
+```
+
 ### Получение значений по умолчанию
 
 Если вам нужно получить значение по умолчанию, используйте метод `defaultValue(_:)`:
@@ -729,3 +737,4 @@ public protocol MTTracer {
 
 - Павел Богарт, pibogar1@mts.ru
 - Анита Хасанова, arkhas12@mts.ru
+- Леонид Перлин, lperlin@mts.ru

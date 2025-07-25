@@ -1,5 +1,14 @@
 # Changelog
 
+## v.5.2.0 - Jul 22, 2025
+
+### Added
+- Добавлен Property Wrapper MTRemoteConfigWrapper для получения значения Remote Config по ключу
+- Добавлено новое публичное свойство allDefaultValues в Remote Config
+
+### Fixed
+- Исправлены баги и улучшена общая стабильность работы c SQLite
+
 ## v.5.1.4 - Jun 13, 2025
 
 ### Fixed
