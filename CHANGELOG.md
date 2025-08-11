@@ -1,5 +1,11 @@
 # Changelog
 
+## v.5.3.0 - Aug 11, 2025
+
+### Fixed
+- Измененена версия зависимости GRDB на 6.29.3
+- Исправлена инициализация: MTRemoteConfig, MTLinkResolver и MTPerformance теперь загружаются только при необходимости
+
 ## v.5.2.0 - Jul 22, 2025
 
 ### Added
