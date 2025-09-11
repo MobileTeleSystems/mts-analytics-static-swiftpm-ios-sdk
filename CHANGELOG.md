@@ -1,5 +1,10 @@
 # Changelog
 
+## v.5.3.1 - Sep 11, 2025
+
+### Fixed
+- Исправлена проблема с открытием WebView на iPhone 7/6s на iOS 15
+
 ## v.5.3.0 - Aug 11, 2025
 
 ### Fixed

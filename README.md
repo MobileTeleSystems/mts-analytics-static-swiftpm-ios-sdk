@@ -14,7 +14,7 @@
 - [RemoteConfig](#goto_remote_config)
 - [Perfomance](#goto_perfomance)
 
-### Актуальная версия MTAnalytics - 5.3.0
+### Актуальная версия MTAnalytics - 5.3.1
 
 ## Требования для установки SDK
 
@@ -35,7 +35,7 @@ https://github.com/MobileTeleSystems/mts-analytics-swiftpm-ios-sdk/
 ### Cocoapods
 1. Чтобы добавить библиотеку MTAnalytics в проект, через CocoaPods добавьте в Podfile:
 ```ruby
-pod 'MTAnalytics',  '~> 5.3.0'
+pod 'MTAnalytics',  '~> 5.3.1'
 ```
 
 Теперь при установке MTAnalytics через Cocoapods, начиная с 5.3.0, необходимо указывать pod GRDB таким образом:
