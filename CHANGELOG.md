@@ -1,5 +1,20 @@
 # Changelog
 
+## v.6.0.0 - Oct 20, 2025
+
+### Changed
+- Breaking: Минимально необходимая версия iOS и tvOS поднята до 15.0
+- Breaking: Удалены deprecated методы
+- Breaking: `MTEcosystemEvent` переименован в `MTAppEvent` с изменением структуры:
+  - Enum поля изменены на optional String
+  - Поле `timestamp` теперь должно заполняться вручную (ранее заполнялось автоматически)
+- Breaking: MTEcosystemDefaults переименованs в MTAppEventDefaults
+- Breaking: Удален метод sendAuthenticationEvent 
+
+### Added
+- Добавлено поле `timestamp` в `MTAppEvent`
+
+
 ## v.5.3.1 - Sep 11, 2025
 
 ### Fixed
